@@ -24,7 +24,6 @@ function LunchCheckController($scope) {
       if(items[i].trim().length == 0)  
         num_of_valid_items -= 1;
     }
-    console.log(num_of_valid_items);
     if(num_of_valid_items == 0) 
       //Handle case of empty values separated by commas
       $scope.lunch_message = "Please enter data first"; 
